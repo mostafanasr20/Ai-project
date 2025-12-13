@@ -248,11 +248,11 @@ body.dark {
     }
   }
 
-  @media(max-width: 412px){
+  @media(max-width: 400px){
     .header{
-          width: 412px;
+          width: 385px;
         .container{
-            width: 412px;
+            width: 385px;
         height: 64px;
         padding: 0 16px;
         .btn-sun{
@@ -430,21 +430,20 @@ body.dark {
     }
   }
 
-  @media(max-width: 412px){
+  @media(max-width: 400px){
     .main-section{
-        width: 412px;
-        padding: 0 0 64px;
+        width: 400px;width: 385px; padding: 0 0 64px;
         text-align: center;
         .landing{
-            width: 412px;
+            width: 385px;
              .container{
-            width: 412px;
+            width: 385px;
             height: 603px;
             padding: 0 16px;
             text-align: center;
             margin: 0;
             .hed-text{
-                width: 380px;
+                width: 353px;
                 height: 70px;
                 span{
                     width: 283px;
@@ -453,28 +452,28 @@ body.dark {
                 }
             }
             .text{
-                 max-width: 412px;
+               max-width: 353px;
                 h1{
-                    max-width: 380px;
+                    max-width: 353px;
                     height: 180px;
-                    font-size: 38px;
+                    font-size: 48px;
                     margin: 0 0 32px;
                 }
                 p{
-                   width: 380px;
+                   width: 353px;
                     height: 65px;
                     font-size: 20px;
                     margin: 0 0 16px;
                 }
                 span.til{
-                    width: 380px;
+                    width: 353px;
                     height: 56px;
                     font-size: 18px;
                     margin: 0 0 48px;
                 }
             }
             .btns{
-                width: 380px;
+                width: 353px;
                 height: 136px;
                 display: flex;
                 flex-direction: column;
