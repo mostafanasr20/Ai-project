@@ -1,43 +1,17 @@
-let dark = document.getElementById("sun");
-let header = document.getElementById("header");
-let li = document.querySelectorAll(".header ul li a");
-let body = document.querySelector("body");
+let icon = document.getElementById("sun");
+let body = document.body;
 
-dark.addEventListener("click", function(){
-    this.classList.toggle("fa-moon");
-    
-    if(this.classList.toggle("fa-sun")){
-        
-        body.style.background = "white";
-        body.style.color = "black";
-        body.style.transition = "2s";
-        
-        header.style.background = 'white';
-        header.style.color = 'black';
-        header.style.transition = "2s";
-    
-        li.forEach(function(item){
-            item.style.color = '#121212';
-            item.style.transition = "2s";
-        });
-        
-    } else {
-        
-        body.style.background = "#121212";
-        body.style.color = "white";
-        body.style.transition = "2s";
-        
-        header.style.background = '#121212';
-        header.style.color = 'white';
-        header.style.transition = "2s";
-        
-       
-        li.forEach(function(item){
-            item.style.color = '#ffffff';
-            item.style.transition = "2s";
-        });
-    }
+icon.addEventListener("click", function () {
+  body.classList.toggle("dark");
+
+  if (body.classList.contains("dark")) {
+    icon.classList.replace("fa-moon", "fa-sun");
+  } else {
+    icon.classList.replace("fa-sun", "fa-moon");
+  }
 });
+
+
 
 let links = document.querySelector(".links");
 let menu = document.querySelector(".menu i")
