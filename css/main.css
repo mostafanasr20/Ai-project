@@ -433,12 +433,16 @@ body.dark {
   @media(max-width: 430px){
     .main-section{
         width: 430px;
+        padding: 0 0 64px;
+        text-align: center;
         .landing{
             width: 430px;
              .container{
             width: 430px;
             height: 603px;
+            padding: 0 16px;
             text-align: center;
+            margin: 0;
             .hed-text{
                 width: 398px;
                 height: 70px;
@@ -449,20 +453,24 @@ body.dark {
                 }
             }
             .text{
+                 max-width: 430px;
                 h1{
-                    width: 398px;
+                    max-width: 390px;
                     height: 180px;
-                    font-size: 48px;
+                    font-size: 35px;
+                    margin: 0 0 32px;
                 }
                 p{
-                    width: 398px;
+                   width: 398px;
                     height: 65px;
                     font-size: 20px;
+                    margin: 0 0 16px;
                 }
                 span.til{
                     width: 398px;
                     height: 56px;
                     font-size: 18px;
+                    margin: 0 0 48px;
                 }
             }
             .btns{
@@ -470,6 +478,7 @@ body.dark {
                 height: 136px;
                 display: flex;
                 flex-direction: column;
+                gap: 5px;
             }
         }
         }
