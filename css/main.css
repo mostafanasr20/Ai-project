@@ -248,11 +248,11 @@ body.dark {
     }
   }
 
-  @media(max-width: 430px){
+  @media(max-width: 412px){
     .header{
-          width: 430px;
+          width: 412px;
         .container{
-            width: 430px;
+            width: 412px;
         height: 64px;
         padding: 0 16px;
         .btn-sun{
@@ -430,21 +430,21 @@ body.dark {
     }
   }
 
-  @media(max-width: 430px){
+  @media(max-width: 412px){
     .main-section{
-        width: 430px;
+        width: 412px;
         padding: 0 0 64px;
         text-align: center;
         .landing{
-            width: 430px;
+            width: 412px;
              .container{
-            width: 430px;
+            width: 412px;
             height: 603px;
             padding: 0 16px;
             text-align: center;
             margin: 0;
             .hed-text{
-                width: 398px;
+                width: 380px;
                 height: 70px;
                 span{
                     width: 283px;
@@ -453,28 +453,28 @@ body.dark {
                 }
             }
             .text{
-                 max-width: 430px;
+                 max-width: 412px;
                 h1{
-                    max-width: 390px;
+                    max-width: 380px;
                     height: 180px;
-                    font-size: 35px;
+                    font-size: 38px;
                     margin: 0 0 32px;
                 }
                 p{
-                   width: 398px;
+                   width: 380px;
                     height: 65px;
                     font-size: 20px;
                     margin: 0 0 16px;
                 }
                 span.til{
-                    width: 398px;
+                    width: 380px;
                     height: 56px;
                     font-size: 18px;
                     margin: 0 0 48px;
                 }
             }
             .btns{
-                width: 398px;
+                width: 380px;
                 height: 136px;
                 display: flex;
                 flex-direction: column;
